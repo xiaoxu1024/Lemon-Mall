@@ -1,6 +1,6 @@
 <!--  -->
 <template>
-  <div>
+  <div id="app">
     <router-view></router-view>
     <Tabbar>
       <tabbaritem link="/home" tabcolor="#ff2d4a">
@@ -40,5 +40,4 @@ import tabbaritem from 'components/common/tabbar/TabbarItem'
 </script>
 
 <style>
-
 </style>

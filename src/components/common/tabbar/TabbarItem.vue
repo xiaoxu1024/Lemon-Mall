@@ -42,6 +42,7 @@
     height: 49px;
     font-size: 14px;
     cursor: pointer;
+    color: #494949;
   }
   .tab-bar-item img{
     width: 25px;

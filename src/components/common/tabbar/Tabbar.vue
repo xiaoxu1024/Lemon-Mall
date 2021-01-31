@@ -13,6 +13,7 @@
 
 <style>
   #tabbar{
+    width: 100%;
     display: flex;
     background-color: #f6f6f6;
     position:fixed;

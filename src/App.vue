@@ -1,7 +1,5 @@
 <template>
-  <div id="app">
     <main-tabbar/>
-  </div>
 </template>
 
 <script>
@@ -16,5 +14,5 @@ export default {
 </script>
 
 <style>
-  @import 'assets/css/base.css';
+  @import 'assets/css/normalize.css';
 </style>
