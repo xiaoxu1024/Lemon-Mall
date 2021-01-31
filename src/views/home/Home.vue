@@ -2,16 +2,21 @@
 <template>
   <div id="home">
     <navbar class="home-nav"><div slot="center">Lemon</div></navbar>
+    <main-swiper :banners="banners" times="2"></main-swiper>
+
   </div>
 </template>
 
 <script>
 import Navbar from 'components/common/navbar/Navbar'
+import MainSwiper from 'components/content/mainSwiper/MainSwiper'
 import {getHomeDatas} from 'network/home'
+
   export default {
     name:'Home',
     components:{
-      Navbar
+      Navbar,
+      MainSwiper
     },
     data(){
       return{
