@@ -28,8 +28,9 @@
   .recommend{
     width: 100%;
     display: flex;
-    margin-bottom: 100px;
-    border-top:6px solid rgba(212, 208, 208, 0.3);;
+    padding-bottom: 10px;
+    border-top:6px solid rgba(212, 208, 208, 0.3);
+    border-bottom:6px solid rgba(212, 208, 208, 0.3)
   }
   .recommend-item{
     flex: 1;
@@ -39,10 +40,10 @@
   .recommend-item img{
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 60%;
+    width: 85%;
   }
   .recommend-item p{
-    font-size: 2vw;
+    font-size: 4.5vw;
     color: #494949;
     margin:0;
   }
