@@ -19,12 +19,12 @@
     overflow: hidden;
   }
   .swiper-img{
-    width: 1000%;
+    width: 5000%;
     overflow: hidden;
     position: relative;
   }
   .swiper-img img{
-    width: 10%;
+    width: 2%;
     float: left;
   }
 </style>

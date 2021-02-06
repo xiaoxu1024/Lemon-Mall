@@ -42,15 +42,17 @@
     height: 44px;
     line-height: 44px;
     background-color: #fff;
+    margin-bottom: 2px;
   }
   .tab-contro-item{
     flex: 1;
+    font-size: 18px;
   }
   .active{
     color: #ff2d4a;
   }
   .active span{
-    padding: 5px;
+    padding: 1px;
     border-bottom: 3px solid  #ff2d4a;
   }
 </style>

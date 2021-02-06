@@ -18,14 +18,9 @@
     display: flex;
     height: 44px;
     line-height: 44px;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 5;
   }
   .left,.right{
-    width: 60px;
+    width: 20%;
   }
   .center{
     flex:1;

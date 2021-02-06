@@ -1,7 +1,9 @@
 <!--  -->
 <template>
   <div id="app">
-    <router-view></router-view>
+    <keep-alive exclude="Detail">
+      <router-view></router-view>
+    </keep-alive>
     <Tabbar>
       <tabbaritem link="/home" tabcolor="#ff2d4a">
         <img slot="tabbar-item-icon" src="~assets/img/tabbar/home.png" alt="">

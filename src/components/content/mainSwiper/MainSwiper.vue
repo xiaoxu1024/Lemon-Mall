@@ -2,7 +2,7 @@
 <template>
     <swiper>
       <a :href="item.link" v-for="item in banners">
-        <img :src="item.image" :alt="item.title">
+        <img :src="item.image" :alt="item.title" @load="imageLoad">
       </a>
     </swiper>
 </template>
@@ -20,8 +20,21 @@
       },
       times:[Number,String]
     },
+    data(){
+      return{
+        loadFlage:true
+      }
+    },
     components:{
       Swiper
+    },
+    methods:{
+      imageLoad(){
+        if(this.loadFlage){
+          this.$emit('swiperLoad')
+          this.loadFlage=false
+        }
+      }
     },
     mounted(){
       var boximg=document.getElementsByClassName('swiper-img')[0];

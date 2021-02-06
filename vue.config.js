@@ -13,6 +13,7 @@ module.exports = {
     .set("components", resolve("src/components"))
     .set("network", resolve("src/network"))
     .set("views", resolve("src/views"))
+    .set("store", resolve("src/store"))
   },
   publicPath:'./'
 }

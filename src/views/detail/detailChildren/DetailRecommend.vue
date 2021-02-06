@@ -1,29 +1,30 @@
 <!--  -->
 <template>
-  <div class="goods">
-    <goods-item v-for="(item,index) in goods" :goodsItem="item" :key="index"></goods-item>
+  <div class="detail-recommend">
+    <goods :></goods>
   </div>
 </template>
 
 <script>
-
-
-import GoodsItem from './GoodsItem'
+import Goods from 'components/content/goods/Goods'
   export default {
-    name:'Goods',
+    name:'DetailRecommend',
     props:{
-      goods:{
+      recommends:{
         type:Array,
         default(){
           return []
         }
       }
-    },
-    components:{
-      GoodsItem
     }
+    ,
+    components:{
+      Goods
+    }
+
   }
 </script>
 
 <style scoped>
+
 </style>
