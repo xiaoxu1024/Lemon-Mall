@@ -14,6 +14,7 @@ module.exports = {
     .set("network", resolve("src/network"))
     .set("views", resolve("src/views"))
     .set("store", resolve("src/store"))
+    .set("router", resolve("src/router"))
   },
   publicPath:'./'
 }
